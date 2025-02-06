@@ -34,9 +34,10 @@ public class Handler {
             termes.setBetakaritas(LocalDate.parse(lineArray[4]));
 
             termesLista.add(termes);
+            
         } 
-
+        sc.close();
         return termesLista;
-    
+        
     }
 }
